@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/headerlogo"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo_e_parking_panjang_trans" />
+
+    <TextView
+        android:id="@+id/namakelompok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_kelompok"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/headerlogo"/>
+
+    <TextView
+        android:id="@+id/yoghi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="@string/yoghi"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_below="@+id/namakelompok"/>
+
+    <TextView
+
+        android:id="@+id/siti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="@string/siti"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_below="@+id/yoghi"/>
+
+    <TextView
+        android:id="@+id/nilam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="@string/yuse"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_below="@+id/siti"/>
+
+    <TextView
+        android:id="@+id/yuse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="@string/nilam"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_below="@+id/nilam"/>
+
+</RelativeLayout>

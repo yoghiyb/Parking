@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">E-Parking</string>
+
+    <string name="nama_kelompok">Kelompok : </string>
+
+    <string name="yoghi">Yoghi Yuna Burnama / 151080200197</string>
+    <string name="yuse">Mochamad yuse waramitha / 141080200233</string>
+    <string name="siti">Siti Novida / 151080200174</string>
+    <string name="nilam">Nilam Cahya Wardhani / 161080200315</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">CLose Navigation Drawer</string>
+
+    <string-array name="promt_kampus">
+        Pilih Kampus
+    </string-array>
+
+    <string-array name="kampus">
+        <item>Kampus 1</item>
+        <item>Kampus 2</item>
+        <item>Kampus 3</item>
+        <item>Kampus 4</item>
+    </string-array>
+
+    <string-array name="lantai_k1">
+        <item>Lantai 1</item>
+        <item>Lantai 2</item>
+        <item>Lantai 3</item>
+        <item>Lantai 4</item>
+        <item>Lantai 5</item>
+        <item>Lantai 6</item>
+        <item>Lantai 7</item>
+    </string-array>
+
+    <string-array name="lantai_k2">
+        <item>Lantai 1</item>
+        <item>Lantai 2</item>
+        <item>Lantai 3</item>
+        <item>Lantai 4</item>
+    </string-array>
+
+    <string-array name="lantai_k3">
+        <item>Lantai 1</item>
+    </string-array>
+
+    <string-array name="lantai_k4">
+        <item>Lantai 1</item>
+    </string-array>
+</resources>
